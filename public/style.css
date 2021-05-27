@@ -1,0 +1,134 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.nav{
+    font-family: 'Sacramento', cursive;
+}
+.abouttitle{
+    font-family: 'Sacramento';
+    color: black;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 50px;
+ }
+ .aboutpara{
+    font-family:'Trocchi';
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+   
+
+ }
+ .sidepic{
+    width:60%; 
+                
+    margin: auto;
+    height: 230px;
+    margin: 50px 30px 30px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+ }
+
+ .contacthead{
+   font-family: 'Sacramento';
+   color: white;
+   text-align: center;
+   font-size: 40px;
+   margin: 20px auto;
+ }
+ .contactus{
+   font-family: 'Montserrat';
+   color: white;
+   text-align: center;
+ }
+
+ .cont{
+   text-align: center;
+}
+.help{
+          
+   font-family: 'Montserrat';
+   color: white;
+   text-align: center;
+   margin: 20px auto ;
+   text-align: center;
+}
+
+i{
+   display: inline;
+   color: white;
+   
+   
+
+}
+.social li{
+   display: inline-block;
+   list-style: none;
+   text-align: center;
+   padding: 15px;
+}
+
+.aws-btn {
+
+   --slider-height-percentage: 33%;
+   --slider-transition-duration: 700ms;
+   --organic-arrow-thickness: 4px;
+   --organic-arrow-border-radius: 0px;
+   --organic-arrow-height: 40px;
+   --organic-arrow-color: #538bd5;
+   --control-button-width: 10%;
+   --control-button-height: 25%;
+   --control-button-background: transparent;
+   --control-bullet-color: #62a4fa;
+   --control-bullet-active-color: #538bd5;
+   --loader-bar-color: #851515;
+   --loader-bar-height: 6px;
+   }
+
+   .contactbox{
+      background-color: rgba(20, 20, 20, .2);
+      ;
+   }
+
+   .noBullet {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .inputFields {
+      margin: 15px 0;
+      font-size: 20px;
+      padding: 10px;
+      width: 40%;
+      border: 2px solid #f1839d;
+     
+      color:black;
+      outline: none;
+    }
+
+    #join-btn {
+      border: 3px solid #f1839d;
+      background: rgba(20, 20, 20, 0.4);
+      font-size: 18px;
+      color: white;
+      margin-top: 20px;
+      padding: 10px 50px;
+      cursor: pointer;
+      transition: 0.4s;
+    }
+    #join-btn:hover {
+      background: rgba(20, 20, 20, 0.8);
+      padding: 10px 80px;
+    }
+    
+    .formhead{
+       font-family:'Montserrat';
+    }
+   
+
+  svg {
+   position: absolute;
+   left: 0;
+   top: 0;
+   z-index: -1;
+}

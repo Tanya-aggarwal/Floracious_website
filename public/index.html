@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Trocchi' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <title>Floracious</title>
+</head>
+<body style="background-image:url(https://i.pinimg.com/originals/c1/9f/d3/c19fd3013d1e503d85a3f9ba3c415acb.jpg); background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;">
+  <script src="./src/index.js" type="text/jsx"></script>
+  <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+  
+  
+
+  <div id="root"></div>
+
+</body>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwgwqek7zplW2HCtyaR0S3JbW-QgxpFxV_Xwxhh4UQ_UyVtBtSaZHI6qPIzdpdbmomc8w/exec'
+  const form = document.forms['google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+
+</html>
