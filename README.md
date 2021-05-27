@@ -6,4 +6,3 @@ official instagram handle.
 The contact us page in the website is linked with an external google sheet completed using google scripts.
 
 
-
